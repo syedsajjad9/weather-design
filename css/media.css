@@ -1,0 +1,52 @@
+@media (max-width: 1024px) {
+    .center {
+        width: fit-content;
+    }
+    .left {
+        width: fit-content;
+    }
+    .right {
+        width: 730px;
+    }
+    .form-control {
+        width: 400px;
+    }
+    .right_second_inside {
+        width: 720px;
+    }
+    .right_second_inside_temp {
+        font-size: 8px;
+        margin-right: -40px;
+        margin-left: 56px;
+        margin-top: -20px;
+    }
+    .card-body {
+        font-size: 11px;
+    }
+    .right_third_heading_row {
+        width: auto;
+        margin: auto;
+    }
+    .right_third_col {
+        width: 50px;
+    }
+    .right_third_col i {
+        font-size: 10px;
+    }
+    .right_third_col p {
+        font-size: 10px;
+        margin: auto;
+        width: 40px;
+    }
+    .right_third_col h6 {
+        font-size: 10px;
+        margin: auto;
+    }
+    .right_third_arrow {
+        width: fit-content;
+        padding: 2px;
+    }
+    .right_third_arrow i {
+        font-size: 10px;
+    }
+}

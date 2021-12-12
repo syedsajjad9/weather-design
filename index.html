@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://kit.fontawesome.com/cbbe2aaf9d.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="center container">
+        <div class="left">
+            <div class=" left_nav">
+
+                <h3> <i class="fas fa-sun sun left_nav_sun"></i><i class="fas fa-temperature-low"></i>Meteorolog</h3>
+                <ul>
+                    <li><i class="fas fa-th-large"></i> Dashboard</li>
+                    <li><i class="far fa-chart-bar"> </i> Statistics</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Maps</li>
+                    <li><i class="fas fa-calendar-week"></i> Clanender</li>
+                    <li><i class="fas fa-cog"></i> Setting</li>
+                </ul>
+            </div>
+
+            <div class="card" style="width: 12rem;">
+
+                <div class="card-body1">
+                    <i class="fas fa-cloud"></i>
+                    <h5 class="card-title">Today</h5>
+                    <p class="card-text">11:44</p>
+                    <p class="card-text">mon,11 January</p>
+                </div>
+
+                <div class="card-body2">
+                    <h1>+4'C</h1>
+                    <h6>New York</h6>
+                    <p>United States</p>
+                </div>
+                <div class="card-body3">
+                    <div>
+                        <p>Humidity <span>70%</span> </p>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p>Preciption <span>25%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="card-body3_last">
+                        <h6>Wind : <i class="fas fa-tachometer-alt"></i> <span>4.5km/h</span></h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div class="right_first">
+                <nav class="navbar navbar-light ">
+                    <div class="container-fluid">
+                        <form class="d-flex">
+                            <button class="btn-btn outline-success" type="submit"><i class="fas fa-search"></i></button>
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                        </form>
+                    </div>
+                </nav>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bell"></i> <img src="img/logo.jpg" alt="pic">  Willan jacobson
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="right_second">
+                <div class="right_second_heading">
+                    <h3>Weather Forecast</h3>
+                </div>
+                <div class="right_second_inside">
+                    <div class="card" style="width: 11rem;">
+                        <img src="img/img1.jpg" class="card-img-top" alt="...">
+                        <div class="right_second_inside_temp">12:31 <i class="fas fa-sun"></i></div>
+                        <div class="card-body">
+                            <p class="card-text">Amsterdam</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 11rem;">
+                        <img src="img/img2.jpg" class="card-img-top" alt="...">
+                        <div class="right_second_inside_temp">12:31 <i class="fas fa-sun"></i></div>
+                        <div class="card-body">
+                            <p class="card-text">London</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 11rem;">
+                        <img src="img/img3.jpg" class="card-img-top" alt="...">
+                        <div class="right_second_inside_temp">12:31 <i class="fas fa-moon"></i></div>
+                        <div class="card-body">
+                            <p class="card-text">Budapest</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 11rem;">
+                        <img src="img/img4.jpg" class="card-img-top" alt="...">
+                        <div class="right_second_inside_temp">12:31 <i class="fas fa-sun"></i></div>
+                        <div class="card-body">
+                            <p class="card-text">Paris</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 11rem;">
+                        <img src="img/img5.jpg" class="card-img-top" alt="...">
+                        <div class="right_second_inside_temp">12:31 <i class="fas fa-moon"></i></div>
+                        <div class="card-body">
+                            <p class="card-text">Chicago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right_third">
+
+                <div class="right_third_heading">
+                    <h4>London</h4>
+                    <p class="right_third_heading_p">details more <i class="fas fa-arrow-right"></i></p>
+                </div>
+                <div class="container">
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 right_third_heading_row">
+                        <div class="col right_third_col ">
+
+                            <i class="fas fa-cloud-meatball"></i> <br>
+                            <h6>-5/+4</h6>
+                            <p>11 Mon</p>
+
+                        </div>
+                        <div class="col right_third_col">
+                            <div class="">
+                                <i class="fas fa-cloud-meatball"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>12 Tue</p>
+                            </div>
+                        </div>
+                        <div class="col right_third_col">
+                            <div class="">
+                                <i class="fas fa-sun sun"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>13 Mon</p>
+                            </div>
+                        </div>
+                        <div class="col right_third_col">
+                            <div class="">
+                                <i class="fas fa-sun sun"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>14 Wed</p>
+                            </div>
+                        </div>
+                        <div class="col right_third_col">
+                            <div class="">
+                                <i class="fas fa-sun sun"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>15 Thu</p>
+                            </div>
+                        </div>
+                        <div class="col right_third_col">
+                            <div class="">
+                                <i class="fas fa-cloud-meatball"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>16 Fri</p>
+                            </div>
+                        </div>
+                        <div class="col right_third_col">
+                            <div class="">
+                                <i class="fas fa-sun sun"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>17 Sat</p>
+                            </div>
+                        </div>
+                        <div class="col right_third_col">
+                            <div class="">
+                                <i class="fas fa-cloud-meatball"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>18 Sun</p>
+                            </div>
+                        </div>
+                        <div class="col right_third_col">
+                            <div class="">
+                                <i class="fas fa-cloud-meatball"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>19 Mon</p>
+                            </div>
+                        </div>
+                        <div class="col right_third_col  right_third_col_spec ">
+                            <div class="">
+                                <i class="fas fa-cloud-meatball"></i> <br>
+                                <h6>-5/+4</h6>
+                                <p>20 Tue</p>
+                            </div>
+                        </div>
+                        <div class="right_third_arrow"><i class="fas fa-angle-double-right"></i></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="right_last">
+                <div class="right_last_h4">
+                    <h4>Weather Graph</h4>
+                </div>
+                <div class="right_last_img">
+                    <img src="img/weather.jpg" alt="">
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="bottom-details">
+        <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2021 <a href="#">sajjad</a>All rights reserved</span>
+            <span class="policy_terms">
+      <a href="#">Privacy policy</a>
+      <a href="#">Terms & condition</a>
+    </span>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
